@@ -1,0 +1,266 @@
+{
+    "locales": {
+        "en": {
+            "title": "Welcome!",
+            "title_menu": "About me",
+            "title_long_prefix": "Hello...",
+            "title_long": "I'm **Fatima Zahra Elgorche!**"
+        },
+
+        "es": {
+            "title": "¡Saludos!",
+            "title_menu": "Sobre mí",
+            "title_long_prefix": "Hola...",
+            "title_long": "Soy **Fatima Zahra Elgorche!**"
+        },
+
+        "fr": {
+            "title": "Salut !",
+            "title_menu": "À propos",
+            "title_long_prefix": "Salut...",
+            "title_long": "Je suis **Fatima Zahra Elgorche!**"
+        },
+
+        "ko": {
+            "title": "환영합니다!",
+            "title_menu": "소개",
+            "title_long_prefix": "안녕하세요...",
+            "title_long": "저는 **Fatima Zahra Elgorche!** 입니다!"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "contact_list",
+            "component": "ArticleGrid",
+            "config": {
+                "ignorePaddingTop": true,
+                "format": "inline"
+            },
+            "locales": {
+                "en": {},
+                "es": {},
+                "fr": {},
+                "ko": {}
+            },
+
+            "items": [
+                {
+                    "value": "Morocco – Casablanca",
+                    "links": [
+                        {"href": null}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-city",
+                        "faColors": {"bg": null, "fill": null}
+                    }
+                },
+                {
+                    "value": "fatimazahraelg52@gmail.com",
+                    "links": [
+                        {"href": "mailto:fatimazahraelg52@gmail.com"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-envelope",
+                        "faColors": {"bg": null, "fill": null}
+                    }
+                },
+                {
+                    "value": "@fatimazahraelgorche",
+                    "links": [
+                        {"href": "https://github.com/fatimazahraelgorche/fatimazahraelgorche"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-github",
+                        "faColors": {"bg": null, "fill": null}
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": "short_description",
+            "component": "ArticleInfoBlock",
+            "config": {},
+            "locales": {
+                "en": {"title": "**A little bit** about me..."},
+                "es": {"title": "**Un poco** sobre mí..."},
+                "fr": {"title": "**Un peu** à propos de moi..."},
+                "ko": {"title": "저에 **대해 조금**..."}
+            },
+
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/logo/developer.png",
+                        "fa": null,
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"text": "<p>I am 20 years old and currently learning about technology, with a particular interest in software engineering.I am passionate about everything related to this field and eager to expand my knowledge and skills. I am dedicated to exploring the world of software development, understanding its principles, and staying updated with the latest advancements in technology. My goal is to build a strong foundation in software engineering and contribute to innovative projects in the future.</p><p>I look forward to collaborating <b>with you!</b>"},
+                        "es": {"text": "<p>Tengo 20 años y actualmente estoy aprendiendo sobre tecnología, con un interés particular en la ingeniería de software. Me apasiona todo lo relacionado con este campo y estoy ansioso por expandir mis conocimientos y habilidades. Me dedico a explorar el mundo del desarrollo de software, comprender sus principios y mantenerme actualizado con los últimos avances en tecnología. Mi objetivo es construir una base sólida en ingeniería de software y contribuir a proyectos innovadores en el futuro.</p><p>¡Espero con interés colaborar <b>contigo!</b></p>"},
+                        "fr": {"text": "<p>J'ai 20 ans et je suis actuellement en train d'apprendre la technologie, avec un intérêt particulier pour l'ingénierie logicielle. Je suis passionné par tout ce qui touche à ce domaine et désireux d'élargir mes connaissances et mes compétences. Je me consacre à l'exploration du monde du développement logiciel, à la compréhension de ses principes et à me tenir au courant des dernières avancées technologiques. Mon objectif est de construire une base solide en ingénierie logicielle et de contribuer à des projets innovants dans le futur.</p><p>Je suis impatient de collaborer <b>avec vous !</b></p>"},
+                        "ko": {"text": "<p>저는 20세의 젊은 모로코 사람이고 현재 2학년입니다. 개발 전문 기술자 풀스택. 나는 혁신적이고 다재다능합니다. 그리고 뉴스에 대한 열정 기술, 백엔드 여부, 프론트엔드, 머신러닝, 클라우드 또는 DevOps.</p><p>이 다양한 배경 덕분에 프로젝트의 다양한 요구에 유연하게 대처할 수 있습니다.</p><p><b>당신과 협업</b>하기를 기대하고 있습니다!</p>"}
+                    }
+                }
+            ]
+        },
+
+
+
+        {
+            "id": "interests",
+            "component": "ArticleGrid",
+            "config": {
+                "format": "grid"
+            },
+            "locales": {
+                "en": {"title": "Personal **interests**"},
+                "es": { "title": "Intereses **personales**" },
+                "fr": { "title": "Intérêts **personnels** " },
+                "ko": { "title": "개인 **관심사**" }
+            },
+
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-handshake-angle",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "volunteering",
+                            "info": "Volunteering allows me to give back while building valuable skills and experiences."
+                        },
+                        "es": {
+                            "title": "voluntariado",
+                            "info": "El voluntariado me permite retribuir algo a la sociedad y al mismo tiempo desarrollar habilidades y experiencias valiosas."
+                        },
+                        "fr": {
+                            "title": "volontariat",
+                            "info": "Le bénévolat me permet de redonner tout en développant des compétences et des expériences précieuses."
+                        },
+                        "ko": {
+                            "title": "번역",
+                            "info": "다양한 언어를 탐색하고 실력을 향상해보세요."
+                        }
+                    }
+                },
+
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-chart-pie",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Economy and Finance",
+                            "info": "Economics and finance offer key tools for making strategic decisions and ensuring financial sustainability."
+                        },
+                        "es": {
+                            "title": "Economía y Finanzas",
+                            "info": "Economía y finanzas ofrecen las herramientas clave para tomar decisiones estratégicas y garantizar la sostenibilidad financiera."
+                        },
+                        "fr": {
+                            "title": "Economie et Finance",
+                            "info": "L’économie et la finance offrent des outils essentiels pour prendre des décisions stratégiques et assurer la durabilité financière."
+                        },
+                        "ko": {
+                            "title": "비디오 게임",
+                            "info": "비디오 게임은 몰입감, 창의성, 글로벌 커뮤니티와의 연결을 제공합니다."
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-people-robbery",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "personal development",
+                            "info": "Personal development is the path to self-knowledge, continuous improvement and the realization of our true potential."
+                        },
+                        "es": {
+                            "title": "desarrollo personal",
+                            "info": "El desarrollo personal es el camino hacia el autoconocimiento, la mejora continua y la realización de nuestro verdadero potencial."
+                        },
+                        "fr": {
+                            "title": "développement personnel",
+                            "info": "Le développement personnel est le chemin vers la connaissance de soi, l’amélioration continue et la réalisation de notre véritable potentiel."
+                        },
+                        "ko": {
+                            "title": "하이킹",
+                            "info": "하이킹은 자연을 탐험하는 활력을 되찾는 방법으로 신체적 도전과 정신적 명확성을 제공합니다."
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-people-robbery",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Cybersecurity",
+                            "info": "Cybersecurity enhances my problem-solving skills, sharpens my analytical thinking, and strengthens my ability to protect and secure digital systems."
+                        },
+                        "es": {
+                            "title": "Ciberseguridad",
+                            "info": "La ciberseguridad mejora mis habilidades para resolver problemas, agudiza mi pensamiento analítico y fortalece mi capacidad para proteger y asegurar los sistemas digitales."
+                        },
+                        "fr": {
+                            "title": "Cybersécurité",
+                            "info": "La cybersécurité améliore mes capacités de résolution de problèmes, aiguise ma pensée analytique et renforce ma capacité à protéger et à sécuriser les systèmes numériques."
+                        },
+                        "ko": {
+                            "title": "하이킹",
+                            "info": "하이킹은 자연을 탐험하는 활력을 되찾는 방법으로 신체적 도전과 정신적 명확성을 제공합니다."
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-people-robbery",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Travel & Cultures",
+                            "info": "Travel and cultures broaden my perspective, enhance my adaptability, and deepen my understanding of diverse traditions and ways of life"
+                        },
+                        "es": {
+                            "title": "Viajes y culturas",
+                            "info": "Los viajes y las culturas amplían mi perspectiva, mejoran mi capacidad de adaptación y profundizan mi comprensión de diversas tradiciones y formas de vida."
+                        },
+                        "fr": {
+                            "title": "Voyages et cultures",
+                            "info": "Les voyages et les cultures élargissent ma perspective, améliorent mon adaptabilité et approfondissent ma compréhension des diverses traditions et modes de vie."
+                        },
+                        "ko": {
+                            "title": "하이킹",
+                            "info": "하이킹은 자연을 탐험하는 활력을 되찾는 방법으로 신체적 도전과 정신적 명확성을 제공합니다."
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
