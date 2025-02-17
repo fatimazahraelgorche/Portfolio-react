@@ -1,0 +1,116 @@
+{
+    "locales": {
+        "en": {
+            "title": "Education",
+            "title_long_prefix": "This is my",
+            "title_long": "**Educational** Background"
+        },
+
+        "es": {
+            "title": "Educación",
+            "title_long_prefix": "Esta es mi",
+            "title_long": "**Formación** Educativa"
+        },
+
+        "fr": {
+            "title": "Éducation",
+            "title_long_prefix": "C'est mon",
+            "title_long": "**Contexte** Éducatif"
+        },
+
+        "ko": {
+            "title": "교육",
+            "title_long_prefix": "이것은 내",
+            "title_long": "**교육적** 배경"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "academic",
+            "component": "ArticleTimeline",
+            "config": {},
+            "locales": {},
+
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/logo/bac.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "10/03/2023",
+                        "end": "07/01/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Scientific Baccalaureate** in life and earth science",
+                            "info": "Mitaq Lirfan - Casablanca",
+                            "text": "The path to the scientific baccalaureate in Morocco is a demanding path that develops solid skills in mathematics, physics, chemistry, and life and earth sciences. This structured curriculum, spanning from primary school to high school, offers rigorous training that prepares students for higher education in scientific and technical fields, opening doors to prestigious and innovative careers.",
+                            "tags": []
+                        },
+                        "es": {
+                            "title": "**Bachillerato Científico** en Ciencias de la vida y de la tierra",
+                            "info": "Mitaq Lirfan - Casablanca",
+                            "text": "El camino hacia el bachillerato científico en Marruecos es un camino exigente que desarrolla habilidades sólidas en matemáticas, física, química y ciencias de la vida y de la tierra. Este currículo estructurado, que abarca desde la escuela primaria hasta la secundaria, ofrece una formación rigurosa que prepara a los estudiantes para la educación superior en campos científicos y técnicos, abriendo así las puertas a carreras prestigiosas e innovadoras.",
+                            "tags": null
+                        },
+                        "fr": {
+                            "title": "**Baccalauréat Scientifique** en Sciences de la vie et de la terre",
+                            "info": "Mitaq Lirfan - Casablanca",
+                            "text": "Le parcours vers le baccalauréat scientifique au Maroc est un chemin exigeant qui développe des compétences solides en mathématiques, physique, chimie et sciences de la vie et de la terre. Ce cursus structuré, allant de l'école primaire au lycée, offre une formation rigoureuse qui prépare les élèves aux études supérieures dans des domaines scientifiques et techniques, ouvrant ainsi les portes à des carrières prestigieuses et innovantes.",
+                            "tags": null
+                        },
+                        "ko": {
+                            "title": "물리학 및 화학 과학 학사 학위",
+                            "info": "Abd Alkhalek Torres - Casablanca",
+                            "text": "모로코에서 과학 학사 학위를 취득하기 위한 과정은 수학, 물리, 화학, 생명과 지구과학 분야에서 탄탄한 기술을 개발하는 까다로운 과정입니다. 초등학교부터 고등학교까지 체계적인 커리큘럼을 통해 학생들에게 과학 및 기술 분야의 고등 교육을 준비시키는 엄격한 교육을 제공하여 명망 있고 혁신적인 직업으로의 문을 열어줍니다.",
+                            "tags": null
+                        }
+                    }
+                },
+
+
+
+                {
+                    "icon": {
+                        "img": "images/logo/uni.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "09/01/2024",
+                        "end": "07/10/2025"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "First year of **basic degree** - International economics",
+                            "info": "UH2C",
+                            "text": "<p>The fundamental studies that take place during the 4 Semesters of the common core “Economics and Management” (SEG) allow the student to pursue theoretical and methodical training. The aim is to provide the student with the fundamental knowledge to grasp and understand the mechanisms of the functioning of the economy and management systems both at the national and international level. These studies take place in the form of lecture sessions and tutorials spread over four semesters (two years).</p>",
+                            "tags": []
+                        },
+                        "es": {
+                            "title": "Primer año de **grado básico** - Economía internacional",
+                            "info": "UH2C",
+                            "text": "<p>Los estudios fundamentales que se desarrollan durante los 4 semestres del tronco común “Economía y Gestión” (SEG) permiten al estudiante obtener una formación teórica y metódica. El objetivo es proporcionar al estudiante los conocimientos fundamentales para comprender y captar los mecanismos de funcionamiento de la economía y los sistemas de gestión tanto a nivel nacional como internacional. Estos estudios se imparten en forma de clases magistrales y tutorías repartidas a lo largo de cuatro semestres (dos años).</p>",
+                            "tags": []
+                        },
+                        "fr": {
+                            "title": "Première année de **licence fondamentale** - Economie internationale",
+                            "info": "UH2C",
+                            "text": "<p>Les études fondamentales qui se déroulent durant les 4 Semestres du tronc commun « Sciences Économiques et Gestion » (SEG) permettent à l’étudiant de poursuivre une formation théorique et méthodique. Il s’agit de doter l’étudiant des connaissances fondamentales pour  appréhender  et comprendre les mécanismes du fonctionnement  de l’économie et des systèmes de gestion tant au niveau national qu’international. Ces études se déroulent sous forme de  séances de cours magistraux et de travaux dirigés réparties sur quatre semestres (deux ans).</p>",
+                            "tags": []
+                        },
+                        "ko": {
+                            "title": "풀스택 개발을 전문으로 하는 기술자",
+                            "info": "ISTA NTIC 2 SM",
+                            "text": "<p>ISTA의 Full Stack Development Specialist Technician 교육은 사용자 인터페이스(프런트엔드)부터 서버 및 데이터베이스(백엔드)까지 완전한 웹 애플리케이션을 만들 수 있는 다재다능한 개발자를 양성하기 위해 설계되었습니다.</p> <ul><li>프런트엔드 개발</li><li>백엔드 개발</li><li>데이터베이스</li><li>개발 도구 및 환경</li><li>관리 프로젝트</li><li>웹 보안 및 품질</li></ul>",
+                            "tags": ["풀 스택 웹 애플리케이션 개발", "디지털 프로젝트 관리", "애플리케이션 보안 및 최적화"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

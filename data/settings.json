@@ -1,0 +1,78 @@
+{
+    "version": "1.0.0",
+    "animatedCursorEnabled": true,
+    "fullScreenButtonEnabled": true,
+
+    "preloader": {
+        "enabled": true,
+        "title": "<b>Fatima Zahra Elgorche </b> Portfolio",
+        "subtitle": "by Fatima Zahra Elgorche"
+    },
+
+    "profile": {
+        "name": "Fatima Zahra Elgorche",
+        "stylizedName": "<strong>Fatima **Elgorche**</strong>",
+        "logoUrl": "images/logo/co.png",
+        "profilePictureUrl": "images/pictures/po.jpg",
+
+        "locales": {
+            "en": {"role": "software engineer"},
+            "es": {"role": "Ingeniera de software"},
+            "fr": {"role": "ingénieur logiciel"}
+
+        }
+    },
+
+    "status": {
+        "visible": true,
+        "available": true,
+
+        "locales": {
+            "en": {"message": "Available for freelance!"},
+            "es": {"message": "¡Disponible para freelance!"},
+            "fr": {"message": "Disponible pour freelance !"}
+        }
+    },
+
+    "supportedThemes": [
+        {
+            "id": "dark",
+            "default": true,
+            "icon": "fa-solid fa-moon"
+        },
+
+        {
+            "id": "light",
+            "default": false,
+            "icon": "fa-solid fa-sun"
+        }
+    ],
+
+    "supportedLanguages": [
+        {
+            "name": "English",
+            "id": "en",
+            "flagUrl": "images/flags/en.png",
+            "default": true
+        },
+
+        {
+            "name": "Español",
+            "id": "es",
+            "flagUrl": "images/flags/es.png"
+        },
+
+        {
+            "name": "Français",
+            "id": "fr",
+            "flagUrl": "images/flags/fr.png"
+        }
+
+    ],
+
+    "emailjs": {
+        "publicKey": "tzObcsmOwHvPy6Rhp",
+        "serviceId": "service_4h8g7vb",
+        "templateId": "template_seyjkzn"
+    }
+}
